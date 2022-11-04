@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    transition: 0.3s;
+}
+
+.nav1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 50px;
+}
+
+
+.inside_nav:nth-child(1) {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    place-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    padding-top: 0;
+    padding-left: 5px;
+    height: 80%;
+    width: 80%;
+    margin-top: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+
+.inside_nav:nth-child(2) {
+
+    display: grid;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.top {
+    height: 35px;
+    width: 18%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(102, 102, 228);
+    color: white;
+}
+
+input[type="email"] {
+    border: white;
+    height: 35px;
+    width: 40%;
+}
+
+input[type="email"]::placeholder {
+    text-align: right;
+    padding: 10px;
+}
+
+.nav2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 85px;
+    background-color: rgb(8, 8, 8);
+
+}
+
+.inside_nav2:nth-child(2) {
+    text-align: left;
+    padding-top: 25px;
+    margin-left: 5px;
+}
+
+#register {
+    background-color: rgb(102, 102, 228);
+    color: white;
+    height: 40px;
+    width: 28%;
+    border-radius: 5px;
+    border: none;
+}
+
+.top:hover,
+#register:hover {
+    background-color: white;
+    color: #000;
+}
+
+.inside_nav2:nth-child(1) {
+    color: white;
+    text-align: right;
+    padding-top: 35px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#main_img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+p {
+    font-weight: 500;
+    font-size: medium;
+    line-height: 25px;
+}
+
+#sign_in {
+    border: 1px solid rgb(230, 221, 221);
+}
+
+#sign_in::placeholder {
+    text-align: left;
+}
+
+#top {
+    margin-left: 5px;
+    height: 40px;
+}
+
+#login {
+    margin-top: 10px;
+    font-size: medium;
+}
+
+#last {
+    text-decoration: underline;
+    color: rgb(102, 102, 228);
+}
+
+a:hover,
+#last:hover {
+    color: red;
+}
